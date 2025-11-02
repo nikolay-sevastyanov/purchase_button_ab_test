@@ -1,5 +1,5 @@
-## A/B тестирование - изменение экрана покупки на маркетплейсе (аналог Ozon, Wildberries)
-![The San Juan Mountains are beautiful](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+## A/B тестирование - изменение экрана покупки на маркетплейсе (аналог Ozon, Wildberries
+![version_change.png](version_change.png)
 ### Продуктовая гипотеза: 
 Если мы изменим экран покупки, то конверсия в покупку после первой увеличится на 10%, с 30% до 40%.
 ### Выводы
@@ -19,7 +19,8 @@
 Для подобной платформы такую выборку можно собрать за 1 день, но лучше округлить до двух недель, потихоньку раскидывая версии пользователям по **3744** раза в день.
 
 ### Тип теста:
-z-тест 2 независимых пропорций (`proportion z-test`)
+z-тест 2 независимых пропорций (`proportion z-test`), [Описание теста по ссылке.]"https://en.wikipedia.org/wiki/Two-proportion_Z-test"
+
 ![The San Juan Mountains are beautiful](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
 Тест показал: `Z-статистика: 26.84, P-value: 1.1362115314233982e-158 или 1.14/(10^158)`
 
